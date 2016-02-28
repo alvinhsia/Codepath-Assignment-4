@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86A171181C7EE45B0048252E /* BaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A171161C7EE45B0048252E /* BaseTransition.swift */; };
+		86A171191C7EE45B0048252E /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A171171C7EE45B0048252E /* FadeTransition.swift */; };
+		86A1711B1C7EE76D0048252E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A1711A1C7EE76D0048252E /* LoginViewController.swift */; };
 		86C75CC01C7EB6A0009E5119 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C75CBF1C7EB6A0009E5119 /* AppDelegate.swift */; };
 		86C75CC21C7EB6A0009E5119 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C75CC11C7EB6A0009E5119 /* ViewController.swift */; };
 		86C75CC51C7EB6A0009E5119 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C75CC31C7EB6A0009E5119 /* Main.storyboard */; };
@@ -14,6 +17,12 @@
 		86C75CCA1C7EB6A0009E5119 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C75CC81C7EB6A0009E5119 /* LaunchScreen.storyboard */; };
 		86C75CD51C7EB6A0009E5119 /* HW_4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C75CD41C7EB6A0009E5119 /* HW_4Tests.swift */; };
 		86C75CE01C7EB6A0009E5119 /* HW_4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C75CDF1C7EB6A0009E5119 /* HW_4UITests.swift */; };
+		86C75CEE1C7EB94A009E5119 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C75CED1C7EB94A009E5119 /* TabBarViewController.swift */; };
+		86C75CF01C7EBA07009E5119 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C75CEF1C7EBA07009E5119 /* HomeViewController.swift */; };
+		86C75CF21C7EBA23009E5119 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C75CF11C7EBA23009E5119 /* SearchViewController.swift */; };
+		86C75CF41C7EBA4B009E5119 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C75CF31C7EBA4B009E5119 /* ComposeViewController.swift */; };
+		86C75CF61C7EBA6D009E5119 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C75CF51C7EBA6D009E5119 /* AccountViewController.swift */; };
+		86C75CF81C7EBB57009E5119 /* TrendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C75CF71C7EBB57009E5119 /* TrendingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		86A171161C7EE45B0048252E /* BaseTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTransition.swift; sourceTree = "<group>"; };
+		86A171171C7EE45B0048252E /* FadeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
+		86A1711A1C7EE76D0048252E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		86C75CBC1C7EB6A0009E5119 /* HW 4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW 4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86C75CBF1C7EB6A0009E5119 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86C75CC11C7EB6A0009E5119 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,12 @@
 		86C75CDB1C7EB6A0009E5119 /* HW 4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HW 4UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86C75CDF1C7EB6A0009E5119 /* HW_4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW_4UITests.swift; sourceTree = "<group>"; };
 		86C75CE11C7EB6A0009E5119 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86C75CED1C7EB94A009E5119 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		86C75CEF1C7EBA07009E5119 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		86C75CF11C7EBA23009E5119 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		86C75CF31C7EBA4B009E5119 /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		86C75CF51C7EBA6D009E5119 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		86C75CF71C7EBB57009E5119 /* TrendingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +117,16 @@
 			children = (
 				86C75CBF1C7EB6A0009E5119 /* AppDelegate.swift */,
 				86C75CC11C7EB6A0009E5119 /* ViewController.swift */,
+				86A171161C7EE45B0048252E /* BaseTransition.swift */,
+				86A171171C7EE45B0048252E /* FadeTransition.swift */,
 				86C75CC31C7EB6A0009E5119 /* Main.storyboard */,
+				86A1711A1C7EE76D0048252E /* LoginViewController.swift */,
+				86C75CF71C7EBB57009E5119 /* TrendingViewController.swift */,
+				86C75CF51C7EBA6D009E5119 /* AccountViewController.swift */,
+				86C75CF31C7EBA4B009E5119 /* ComposeViewController.swift */,
+				86C75CF11C7EBA23009E5119 /* SearchViewController.swift */,
+				86C75CEF1C7EBA07009E5119 /* HomeViewController.swift */,
+				86C75CED1C7EB94A009E5119 /* TabBarViewController.swift */,
 				86C75CC61C7EB6A0009E5119 /* Assets.xcassets */,
 				86C75CC81C7EB6A0009E5119 /* LaunchScreen.storyboard */,
 				86C75CCB1C7EB6A0009E5119 /* Info.plist */,
@@ -259,8 +286,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86C75CF21C7EBA23009E5119 /* SearchViewController.swift in Sources */,
+				86C75CF81C7EBB57009E5119 /* TrendingViewController.swift in Sources */,
 				86C75CC21C7EB6A0009E5119 /* ViewController.swift in Sources */,
+				86C75CF61C7EBA6D009E5119 /* AccountViewController.swift in Sources */,
+				86A171181C7EE45B0048252E /* BaseTransition.swift in Sources */,
+				86C75CEE1C7EB94A009E5119 /* TabBarViewController.swift in Sources */,
+				86A171191C7EE45B0048252E /* FadeTransition.swift in Sources */,
+				86C75CF41C7EBA4B009E5119 /* ComposeViewController.swift in Sources */,
 				86C75CC01C7EB6A0009E5119 /* AppDelegate.swift in Sources */,
+				86C75CF01C7EBA07009E5119 /* HomeViewController.swift in Sources */,
+				86A1711B1C7EE76D0048252E /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +521,7 @@
 				86C75CE61C7EB6A0009E5119 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86C75CE71C7EB6A0009E5119 /* Build configuration list for PBXNativeTarget "HW 4Tests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +530,7 @@
 				86C75CE91C7EB6A0009E5119 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86C75CEA1C7EB6A0009E5119 /* Build configuration list for PBXNativeTarget "HW 4UITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +539,7 @@
 				86C75CEC1C7EB6A0009E5119 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
